@@ -7,7 +7,7 @@ p, h2, h3, span, a, li {
 }
 
 body {
-  background-color: #edec90;
+  background-color: #eae85c;
 }
 
 .section_container {
@@ -158,20 +158,35 @@ a.source_code_link {
 }
 
 nav {
+  display: flex;
+
   padding: .7rem 0 .7rem 0;
   margin: 0 auto 0 auto;
-  justify-content: space-evenly;
-  display: flex;
+  justify-content: flex-start;
   flex-direction: row;
-  position: -webkit-sticky;
-  position: sticky;
-  top: calc(100vh - 2.4rem);
+
+  position: absolute;
+  width: 100vw;
+  bottom: 0;
   text-align: center;
-  width: 100%;
+
+  overflow-x: scroll;
+
   background-color: #4AA0D1FF;
 }
 
+nav a:hover, a:visited, a:link, a:active
+{
+  text-decoration: none;
+  color: inherit;
+  display: inline;
+  white-space: nowrap;
+  margin: 0 1rem 0 1rem;
+
+}
+
 @media only screen and (min-width: 800px) {
+
   .team_members {
     position: inherit;
     flex-direction: row;
