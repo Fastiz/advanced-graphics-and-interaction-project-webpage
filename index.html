@@ -102,8 +102,7 @@
           </p>
 
           <p>
-            The second player is behind a touch screen and has a panoramic view of the game level. With the help of his fingers the player can move around the board an arrow that sets the direction of the wind.
-          </p>
+            The second player is behind a touch screen and has a panoramic view of the game level. With the help of his finger the player can move around the board an arrow that sets the direction of the wind.          </p>
 
           <div class="playerViewImages">
             <img src="img/first_player.png" alt="First player view"/>
@@ -119,8 +118,9 @@
       <div>
         <div class="content">
           <h2>Demo video</h2>
-          <iframe width="699" height="393"
-                  src="https://www.youtube.com/embed/tgbNymZ7vqY">
+          <iframe
+                  allow="fullscreen;"
+                  src="https://www.youtube.com/embed/XSMPRC7jFrs">
           </iframe>
         </div>
 
@@ -133,6 +133,17 @@
         <div class="content">
           <h2>Goals and motivation</h2>
 
+          <p>
+            On one hand we wanted to experiment with as many different interaction devices as possible while exploring the concept of an asymmetrical multiplayer aspect, with a god player that interacts with players inside the world.
+          </p>
+
+          <p>
+            On the other hand we were also interested in making our virtual world somewhat realistic in physics and in appearance.
+          </p>
+
+          <p>
+            The overall goal was to experiment with different factors of immersion in a VR environment, which is both controls sensitive and visual. The objective was to find how controls, visual effects and cues, and the environment could deliver the experience of navigating your vessel through the environment, while being affected by the environment and other players.
+          </p>
         </div>
 
       </div>
@@ -143,11 +154,10 @@
         <div class="content">
           <h2>About the technologies</h2>
 
-          <ul>
-            <li>VR headset</li>
-            <li>Steering wheel</li>
-            <li>Touchscreen</li>
-          </ul>
+          <p>
+            The majority of development has been done in Unreal Engine, which since version 4.26 provides the built-in Water system plugin. This worked mostly favorably for the water implementations, although it entailed a certain learning curve in itself.
+            Unreal Engine allowed for setting up buoyancy and water physics, as well as tools for designing the water bodies.
+          </p>
         </div>
       </div>
     </section>
@@ -157,6 +167,17 @@
         <div class="content">
           <h2>Individual contributions</h2>
 
+          <h3>Carl Johan</h3>
+          <p>Environment Design, Level Design, Shaders, Water</p>
+
+          <h3>Facundo Astiz</h3>
+          <p>Gameplay, Particle effects, UI, Network, Webpage</p>
+
+          <h3>Filip Husnjak</h3>
+          <p>Physics, Multiplayer, Gameplay, 3D modeling, VR input, Particle effects</p>
+
+          <h3>Thibault Bruyère</h3>
+          <p></p>
         </div>
       </div>
     </section>
@@ -166,6 +187,15 @@
         <div class="content">
           <h2>Challenges and obstacles</h2>
 
+          <p>The main challenges and obstacles were:</p>
+
+          <ul>
+            <li>Avoid making the VR player feel disoriented while playing the game</li>
+            <li>Making the game as immersive as possible while showing queues of the wind direction</li>
+            <li>Giving a purpose to each one of the devices we are using and make the controls easy to understand</li>
+            <li>Make the devices work in our environment</li>
+            <li>Designing the game level to be interesting to both players</li>
+          </ul>
         </div>
       </div>
     </section>
@@ -241,6 +271,13 @@
         <div class="content">
           <h2>Lessons learned</h2>
 
+          <p>
+            The VR development deserves a lot of focus during these kind of projects. While the threshold for getting started with VR development surely has been lowered, for use on a basic level, we have learned that it takes a lot of care to get VR feeling “just right”.
+          </p>
+
+          <p>
+            Don’t underestimate the usefulness of proper research on the “source material”, in this case, sailing. While a great deal of effort was put into understanding real-time water simulation, less focus has been put into the art of sailing, due to a group-wide Dunning-Kruger effect, and so missing certain details. Formulating an overview of the main features of proficient sailing early on would have given us an even greater chance at achieving the feeling of sailing.
+          </p>
         </div>
       </div>
     </section>
