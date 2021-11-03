@@ -176,7 +176,7 @@ nav {
   background-color: #4AA0D1FF;
 }
 
-nav a:hover, a:visited, a:link, a:active
+nav a:hover, nav a:visited, nav a:link, nav a:active
 {
   text-decoration: none;
   color: inherit;
